@@ -9,7 +9,7 @@ from app.api import matriculas
 from app.core.database import Base, engine
 
 # Cria as tabelas no banco automaticamente
-Base.metadata.create_all(bind=engine)
+#main.pyBase.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Escola Técnica API",
