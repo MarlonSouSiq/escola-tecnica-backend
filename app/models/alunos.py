@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Date
 from app.core.database import Base
 
 class Aluno(Base):
-    __tablename__ = "alunos2"
+    __tablename__ = "alunos"
 
     id_aluno = Column(Integer, primary_key=True, index=True)
     matricula = Column(String(20), unique=True, nullable=False, index=True)
